@@ -1,0 +1,9 @@
+.dropdown-menu-right {
+  right: 0;
+  left: auto;
+}
+
+.dropdown-store .dropdown-menu {
+  min-width: unset;
+}
+/*# sourceMappingURL=custom-style.css.map */
