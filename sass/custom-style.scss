@@ -1,11 +1,32 @@
-.dropdown{
-    &-menu-right {
-        right: 0;
-        left: auto;
-}
-    &-store{
-.dropdown-menu{
-    min-width: unset;
-}
+.dropdown {
+  &-menu-right {
+    right: 0;
+    left: auto;
+  }
+  &-store {
+    .dropdown {
+      &-toggle {
+        border-color: transparent !important;
+        &:hover,
+        &:focus,
+        &:active {
+          border-color: transparent !important;
+          background-color: unset !important;
+          box-shadow: unset !important;
+        }
+      }
+      &-menu {
+        min-width: unset;
+      }
     }
+  }
+}
+
+.chosen-container {
+  &-single .chosen-single div b {
+    background-position: 0px 7px;
+  }
+  &-active .chosen-single div b {
+    background-position: -18px 7px !important;
+  }
 }
