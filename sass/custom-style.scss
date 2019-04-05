@@ -3,10 +3,12 @@
     right: 0;
     left: auto;
   }
+
   &-store {
     .dropdown {
       &-toggle {
         border-color: transparent !important;
+
         &:hover,
         &:focus,
         &:active {
@@ -15,6 +17,7 @@
           box-shadow: unset !important;
         }
       }
+
       &-menu {
         min-width: unset;
       }
@@ -26,7 +29,23 @@
   &-single .chosen-single div b {
     background-position: 0px 7px;
   }
+
   &-active .chosen-single div b {
     background-position: -18px 7px !important;
   }
+}
+
+.table {
+  &-align-middle {
+    tbody tr td {
+      vertical-align: middle !important;
+    }
+  }
+}
+
+.input-sm,
+.form-control-sm {
+  height: 31px;
+  line-height: 1.5;
+  font-size: small;
 }
